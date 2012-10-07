@@ -6,7 +6,7 @@ jQuery(document).ready(->
   jQuery("#ticker").ticker(->
     cursorList:  " ",
     rate:        10,
-    delay:       4000
+    delay:       6000
   ).trigger("play").trigger("stop")
 
   jQuery(".stop").click(->
